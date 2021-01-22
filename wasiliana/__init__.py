@@ -34,7 +34,7 @@ class APIClient:
             "Content-Type": "application/json",
             "apiKey": self.apiKey,
         }
-        response = requests.post(url, data=payload, headers=headers)
+        response = requests.post(url, json=payload, headers=headers)
         return response.json()
 
     def send_sms(self, sender_id: str, recipients=[], message=""):

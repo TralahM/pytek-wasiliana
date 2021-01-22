@@ -1,0 +1,14 @@
+author_email: briantralah@gmail.com
+author_name: Tralah M Brian
+author_username: TralahM
+console_scripts: ''
+install_requires:
+- requests
+language: en
+licence: MIT
+package_name: pytek-wasiliana
+program_description: Wasiliana USSD and SMS API SDK
+program_name: wasiliana
+readthedocs: true
+repo_name: pytek-wasiliana
+version: '1.0'
